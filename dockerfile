@@ -1,11 +1,11 @@
-FROM node:20-alpine AS frontend-code-share
+FROM node:24-alpine AS frontend-code-share
 
 COPY ./frontend /app
 WORKDIR /app
 RUN npm install
 RUN npm run build
 
-FROM node:20-alpine
+FROM node:24-alpine
 
 COPY ./backend /app
 WORKDIR /app
