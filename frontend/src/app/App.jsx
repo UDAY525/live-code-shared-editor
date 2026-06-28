@@ -115,7 +115,7 @@ function App() {
         </ul>
       </aside>
       <main className="h-screen w-full bg-gray-950 flex gap-4 p-4">
-        <aside className="h-full hidden lg:flex lg:w-1/4 bg-amber-50 rounded-lg ">
+        <aside className="h-full hidden lg:block w-1/4 bg-amber-50 rounded-lg ">
           <h2 className="text-2xl font-bold p-4 border-b border-gray-300">
             Users
           </h2>
